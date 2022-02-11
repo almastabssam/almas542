@@ -17,6 +17,12 @@
 
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/style.css">
+	<style>
+		.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+			-ms-touch-action: auto;
+			touch-action: auto;
+		}
+	</style>
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
@@ -41,7 +47,7 @@
 			</div>
 		</div>
 	</nav>
-	<section id="home-section" class="hero" style="height: 90vh">
+	<section id="home-section" class="hero">
 		<div class="home-slider owl-carousel">
 			<div class="slider-item">
 				<div class="overlay"></div>
@@ -61,6 +67,7 @@
 					</div>
 				</div>
 			</div>
+		</div>
 
 <!--			<div class="slider-item">-->
 <!--				<div class="overlay"></div>-->
